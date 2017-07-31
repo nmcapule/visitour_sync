@@ -2,7 +2,7 @@ const firebase = require("firebase-admin");
 const mysql = require("mysql");
 
 function firebaseInit() {
-  const serviceAccount = require("./visitour-admin.json");
+  const serviceAccount = require("./credentials-firebase.json");
 
   firebase.initializeApp({
     credential: firebase.credential.cert(serviceAccount),
@@ -13,11 +13,8 @@ function firebaseInit() {
 }
 
 function mysqlInit() {
-  const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    database: "visitour"
-  });
+  const credentials = require("./credentials-mysql.json");
+  const connection = mysql.createConnection(credentials);
 
   return connection;
 }
