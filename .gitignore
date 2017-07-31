@@ -1,0 +1,3 @@
+node_modules/**/*
+visitour-admin.json
+npm-debug.*
