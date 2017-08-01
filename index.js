@@ -30,7 +30,7 @@ function main() {
 
   syncUsers.setup(firebaseDb, mysqlDb);
 
-  // conn.end();
+  // mysqlDb.end();
 }
 
 main();
