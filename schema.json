@@ -1,0 +1,46 @@
+{
+  "friend" : {
+    "idUser1" : [ "idUser2", "idUser3" ],
+    "idUser2" : [ "idUser3", "idUser4" ]
+  },
+  "message" : {
+    "id_room" : {
+      "sdfaksdfbkasjfd" : {
+        "idReceiver" : 332092902394243,
+        "idSender" : 67890,
+        "text" : "hello",
+        "timestamp" : 61839323949234924
+      }
+    }
+  },
+  "room" : {
+    "id_room" : {
+      "groupInfo" : {
+        "admin" : 990239243,
+        "name" : "Bkav"
+      },
+      "isGroup" : true,
+      "member" : {
+        "idUser1" : 990239243,
+        "idUser2" : 88737323
+      }
+    }
+  },
+  "user" : {
+    "2iwoer023rwr" : {
+      "avatar" : "2",
+      "email" : "abc@gamil.com",
+      "message" : {
+        "idReceiver" : 0,
+        "idSender" : 0,
+        "text" : "",
+        "timestamp" : 0
+      },
+      "name" : "Hwieuken2",
+      "status" : {
+        "isOnline" : true,
+        "timestamp" : 0
+      }
+    }
+  }
+}
